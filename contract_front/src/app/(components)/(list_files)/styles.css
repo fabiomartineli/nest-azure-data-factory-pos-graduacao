@@ -1,0 +1,85 @@
+.list-files-container {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', sans-serif;
+    color: #0a0a0a8a;
+}
+
+.list-files-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.list-files-table {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.list-files-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #6b7280;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+.list-files-item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+    transition: background-color 0.5s;
+    width: 100%;
+}
+
+.list-files-header span,
+.list-files-item span {
+    flex: 1;
+    text-align: left;
+}
+
+.list-files-item:hover {
+    background-color: #eff0f1;
+}
+
+.list-files-item-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-files-item-status {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.list-files-item-status.success {
+    background-color: #ecfdf5;
+    color: #10b981;
+    text-align: center;
+}
+
+.list-files-item-status.inProgress {
+    background-color: #fef3c7;
+    color: #f59e0b;
+    text-align: center;
+}
+
+.list-files-item-status.failed {
+    background-color: #fee2e2;
+    color: #ef4444;
+    text-align: center;
+}

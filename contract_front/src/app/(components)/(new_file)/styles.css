@@ -1,0 +1,66 @@
+.new-file-wrapper {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.new-file-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #3c4758;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.5s ease;
+}
+
+.new-file-button:hover {
+  background-color: #525458;
+}
+
+.new-file-input {
+  display: none;
+}
+
+.new-file-name {
+  margin-top: 1rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.new-file-progress-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #e5e7eb;
+  border-radius: 5px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.new-file-progress-bar-fill {
+  height: 100%;
+  background-color: #10b981;
+  transition: width 0.3s ease-in-out;
+}
+
+.new-file-status-message {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.new-file-status-message.success {
+  color: #10b17b;
+}
+
+.new-file-status-message.error {
+  color: #ca5454;
+}
